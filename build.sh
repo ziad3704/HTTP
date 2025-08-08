@@ -17,7 +17,7 @@ sudo ./aws/install
 cd /home/ubuntu
 echo "git clone"
 sudo -u ubuntu git clone https://github.com/ziad3704/HTTP.git
-cd srv-02echo "dotnet build"
+cd HTTP
 echo 'DOTNET_CLI_HOME=/temp' >> /etc/environment
 export DOTNET_CLI_HOME=/temp
 dotnet publish -c Release --self-contained=false --runtime linux-x64
